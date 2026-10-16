@@ -2006,8 +2006,8 @@ odm/lib64/libmmcamera_lscv35.so
 odm/lib64/libmmcamera_mfnr_t4.so
 odm/lib64/libmmcamera_mfnr.so
 odm/lib64/libmmcamera_pdpc.so
-odm/lib64/hw/fingerprint.goodix_us.default.so;DISABLE_DEPS
-odm/lib64/hw/fingerprint.qcom_us.default.so;DISABLE_DEPS
+# odm/lib64/hw/fingerprint.goodix_us.default.so;DISABLE_DEPS
+# odm/lib64/hw/fingerprint.qcom_us.default.so;DISABLE_DEPS
 odm/lib64/libgf_hal.so;DISABLE_DEPS
 odm/lib64/libmmfp.so;DISABLE_DEPS
 odm/lib64/libmorpho_Depurple.so
@@ -2069,12 +2069,12 @@ vendor/lib64/libcameraobserver.so
 vendor/lib64/libcameraopt.so
 vendor/lib64/libmialgo.so
 vendor/lib64/libopencl_loader.so
-vendor/lib64/libopencv_core_se.so
+# vendor/lib64/libopencv_core_se.so
 vendor/lib64/libopencv_core.so
-vendor/lib64/libopencv_imgproc_se.so
+# vendor/lib64/libopencv_imgproc_se.so
 vendor/lib64/libopencv_imgproc.so
 vendor/lib64/libSNPESample.so
-vendor/lib64/libultrahdr.so|libultrahdr_dada
+vendor/lib64/libultrahdr.so
 vendor/lib64/vendor.xiaomi.hardware.aidl.intentaware-V1-ndk_platform.so
 vendor/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.camera.injection-client.so
