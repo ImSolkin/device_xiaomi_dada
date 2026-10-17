@@ -28,3 +28,24 @@ BUILD_FINGERPRINT := Xiaomi/dada_global/dada:15/AQ3A.250226.002/OS3.0.6.0.WOCMIX
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="ImSolkin"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 8 Elite" \
+    RisingMaintainer="ImSolkin"
+
+RISING_MAINTAINER := ImSolkin
+
+# Disable/enable blur support, false by default
+TARGET_ENABLE_BLUR := true
+
+# Сборка без тяжелых Google Apps с интеграцией microG
+WITH_GMS := false
+WITH_MICROG := true
+
